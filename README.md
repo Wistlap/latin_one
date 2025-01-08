@@ -1,6 +1,29 @@
 # latin_one
 
-Coffee order app
+latin_one とは，2024年度乃村研勉強会で作成する，コーヒー豆注文用のアプリケーションである．
+
+## Install & Setup
+### Clone
+GitHub より latin_one のリポジトリを clone し，リポジトリ内へ移動する
+```bash
+git clone git@github.com:miyake13000/latin_one.git
+cd latin_one
+```
+
+### Setup
+依存関係をインストールする
+```bash
+flutter pub get
+```
+
+## Run app
+アプリを実行する
+```bash
+flutter run
+```
+
+## Features
+データベース: Firebase Firestore
 
 ## Getting Started
 
